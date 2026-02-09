@@ -1,5 +1,5 @@
 import React from 'react'
-import ALL from './All'
+import ALL from './ALL'
 
 
 const All_project = () => {

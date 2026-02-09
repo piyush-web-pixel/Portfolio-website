@@ -1,16 +1,13 @@
 import React from 'react'
-import Web from './web'
-import Dataanalystic from './dataanalystic'
-import Datascience from './datascience'
-import Bnav from './Bnav'
+
 
 const Pageonebottom = () => {
   return (
     <div>Pageonebottom
-<Bnav/>
 
+<h1>hello</h1>
     </div>
   )
 }
 
-export default Pageonebottom
+export default Pageonebottom;

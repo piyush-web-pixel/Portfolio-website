@@ -1,6 +1,6 @@
 import React from 'react'
 import { RightCard } from './RightCard';
-import Bnav from './Bnav';
+
 import { LeftCard } from './LeftCard';
 
 

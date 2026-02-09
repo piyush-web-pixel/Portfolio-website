@@ -1,5 +1,5 @@
 import React from 'react'
-import Web from './web'
+
 import { Github, ExternalLink } from "lucide-react";
 
 const ALL = (props) => {
@@ -7,7 +7,7 @@ const ALL = (props) => {
 <div
 
   className="
-    h-[420px] w-[320px] text-white m-8 bg-transparent overflow-hidden 
+     w-[320px] text-white m-8 bg-transparent overflow-hidden 
     shadow-lg flex flex-col rounded-xl border border-transparent
     transition-all duration-300 
     hover:shadow-2xl hover:border-amber-400 hover:shadow-amber-400/40
