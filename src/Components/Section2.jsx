@@ -1,6 +1,8 @@
 import React from 'react'
 import Bnav from './Bnav';
-import ALL from './All';
+import ALL from './ALL';
+
+
 import All_project from './All_project';
 import { Languages } from 'lucide-react';
 
