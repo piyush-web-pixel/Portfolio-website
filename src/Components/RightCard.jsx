@@ -50,10 +50,10 @@ export const RightCard = () => {
 
   {/* Buttons */}
   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-10 mt-6">
-  <ul onClick={() => scrollToSection("section2")} className='cursor-pointer bg-amber-300 text-black rounded-lg px-5 py-2 text-xl sm:text-2xl shadow-lg hover:bg-amber-400'>View Work</ul>
+  <ul onClick={() => scrollToSection("section2")} className='cursor-pointer bg-amber-300 text-black rounded-lg px-5 py-2 text-xl sm:text-2xl shadow-lg hover:bg-amber-400 font-semibold'>View Work</ul>
 
 <a href="/resume.pdf" download>
-  <button className="bg-amber-300 text-black rounded-lg px-5 py-2 text-xl sm:text-2xl shadow-lg hover:bg-amber-400" >
+  <button className="bg-amber-300 text-black rounded-lg px-5 py-2 text-xl sm:text-2xl shadow-lg hover:bg-amber-400 font-semibold" >
     Resume
   </button>
 </a>

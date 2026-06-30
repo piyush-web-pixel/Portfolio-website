@@ -1,5 +1,5 @@
 import React from 'react'
-import passnew2 from "../assets/profile_img.jpeg";
+import passnew2 from "../assets/profile_photo.jpeg";
 
 export const LeftCard = () => {
   return (
