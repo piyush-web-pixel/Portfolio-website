@@ -64,7 +64,7 @@ const Skills = () => {
             >
               {/* Card Header */}
               <div className="flex items-center gap-4 mb-6 text-amber-300">
-                <div className={`p-4 rounded-xl bg-gradient-to-br ${category.color}`}>
+                <div className={`p-4 rounded-xl bg-gradient-to-br${category.color}`}>
                   <category.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold">{category.title}</h3>
@@ -81,7 +81,7 @@ const Skills = () => {
 
                     <div className="h-2 bg-gray-300 rounded-full overflow-hidden">
                       <div 
-                        className={`h-full bg-gradient-to-r ${category.color} rounded-full`}
+                        className={`h-full bg-gradient-to-r${category.color} rounded-full`}
                         style={{ width: `${skill.level}%` }}
                       />
                     </div>

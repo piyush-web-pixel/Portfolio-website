@@ -5,7 +5,9 @@ import ALL from './ALL';
 
 import All_project from './All_project';
 import { Languages } from 'lucide-react';
-
+import phonepe from "../assets/phonepe.png";
+import hospital from "../assets/hospital_dashboaard.png";
+import sales from "../assets/sales.png";
 
 const Section2 = () => {
   const projects=[
@@ -34,7 +36,33 @@ languages:["Python", "NLP", "Machine Learning", "Streamlit"],
 code:'https://github.com/piyush-web-pixel/Resume-Screening-Model',
 livelink:"https://piyush-web-pixel-resume-screening-model-app-urakjf.streamlit.app",
 img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHw1aabFH0Q5PPBNqrfcato9AImcqt8ORsWQ&s'
+},
+{
+  title: "PhonePe Transaction Dashboard",
+  description: "An interactive Power BI dashboard that analyzes PhonePe transaction data with dynamic KPIs, state-wise insights, transaction trends, user analysis, and custom DAX measures. Built using Power Query for data transformation and enhanced with interactive tooltips for an intuitive user experience.",
+  languages: ["Power BI", "DAX", "Power Query", "Data Visualization"],
+  code: "https://github.com/piyush-web-pixel/PhonePe-PowerBI-Dashboard",
+  livelink: "/pdf/phonepe-dashboard.pdf", // Replace with your PDF path
+  img:phonepe
+},
+{
+  title: "Hospital Emergency Room Dashboard",
+  description: "An interactive Power BI dashboard designed to analyze hospital emergency room operations and patient trends. It provides insights into total patients, admissions, average waiting time, patient satisfaction, demographic distribution, department referrals, and monthly patient trends using dynamic DAX measures, Power Query transformations, and interactive filters.",
+  languages: ["Power BI", "DAX", "Power Query", "Data Visualization"],
+  code: "https://github.com/piyush-web-pixel/Hospital-ER-Dashboard",
+  livelink:"/pdf/hospital_dashboard.pdf",
+  img:hospital
 }
+,
+{
+  title: "Sales Data Analysis Dashboard",
+  description: "An interactive Power BI dashboard built to analyze sales performance, profitability, customer purchasing behavior, and regional trends. The dashboard provides comprehensive business insights through dynamic KPIs, sales forecasting, profit analysis, payment mode distribution, shipping analysis, and category-wise performance using DAX measures, Power Query, and interactive slicers.",
+  languages: ["Power BI", "DAX", "Power Query", "Data Visualization"],
+  code: "https://github.com/piyush-web-pixel/Sales-Data-Dashboard",
+  livelink:"/pdf/sales_data_dashboard.pdf",
+  img:sales
+}
+
 
 ]
 
